@@ -1,0 +1,40 @@
+{
+  "name": "Shinn Tiktok Downloader",
+  "description": "A Telegram bot to download TikTok videos without any watermark",
+  "logo" : "https://telegra.ph/file/05bae0725724007c72fa1.jpg",
+  "success_url" : "https://t.me/ShinnTiktokBot",
+  "keywords": [
+    "telegram",
+    "bot",
+    "tiktok",
+    "shinn"
+  ],
+  "repository": "https://github",
+  "website": "http://ShinraTensei1337.rf.gd/",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot Bot Token, get this value from @BotFather.",
+      "value": "5743509732:AAEtWBfDd1Ju_JbpLfJMw9y2lGwFdsNNXl4"
+    },
+    "API_KEY": {
+      "description": "Your APP API KEY, get this from https://my.telegram.org",
+      "value": "AAEtWBfDd1Ju_JbpLfJMw9y2lGwFdsNNXl4"
+    },
+    "API_HASH": {
+      "description": "Your APP HASH, get this from https://my.telegram.org",
+     "value": "87dbee8951b118df52064ef5cba96004"
+    },
+    "CHANNEL_URL": {
+      "description": "URL of your Telegram channel link.",
+      "value": "https://t.me/ShinnTiktokSupport"
+    },
+    "BOT_URL": {
+      "description": "Username of your Telegram Bot (without @). Example: JayBeeTikTokBot",
+      "value": "ShinnTiktokBot"
+    },
+    "WORKERS": {
+      "description": "Number of threads to use, this depends on usage.  4 is the recommended (and default) amount, but your experience may vary.",
+      "value": "4"
+    }
+  }
+}
